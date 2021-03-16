@@ -1,0 +1,134 @@
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.cancel h1 {
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.cancel .form {
+  background: #0e101c;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.cancel p {
+  color: #bf1650;
+  font-size: 1em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.cancel p::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+.cancel textarea,
+.cancel input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.cancel label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.cancel button[type="submit"],
+.cancel input[type="submit"] {
+  background: #ec5990;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+.cancel button[type="submit"]:hover,
+.cancel input[type="submit"]:hover {
+  background: #bf1650;
+}
+
+.cancel button[type="submit"]:active,
+.cancel input[type="button"]:active,
+.cancel input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+.cancel input:disabled {
+  opacity: 0.4;
+}
+
+.cancel input[type="button"]:hover {
+  transition: 0.3s all;
+}
+
+.cancel button[type="submit"],
+.cancel input[type="button"],
+.cancel input[type="submit"] {
+  -webkit-appearance: none;
+}
+
+.cancel button[type="button"] {
+  display: block;
+  appearance: none;
+  background: #333;
+  color: rgb(0, 0, 0);
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.cancel hr {
+  margin-top: 30px;
+}
+
+.cancel button {
+  display: block;
+  appearance: none;
+  margin-top: 40px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.cancel select,
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
